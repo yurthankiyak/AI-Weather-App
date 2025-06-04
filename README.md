@@ -7,6 +7,29 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 
 This project uses OpenWeather and OpenAI APIs. To run the app, you need to add your own API keys.
 
+
+## API Keys Setup
+
+This app currently requires you to add your API keys **directly inside the source code** at:
+
+AI-Weather-App-main\app(tabs)\index.tsx
+
+csharp
+Kopyala
+Düzenle
+
+Open the file and replace the placeholder API keys with your own:
+
+```ts
+const OPENWEATHER_API_KEY = 'your_openweather_api_key_here';
+const OPENAI_API_KEY = 'your_openai_api_key_here';
+⚠️ Note: This method is not secure for production apps.
+For better security, consider using environment variables (.env) in future versions.
+
+
+
+
+
 ## Setup
 
 1. Create a `.env` file in the root directory of the project.
