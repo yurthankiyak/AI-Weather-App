@@ -2,6 +2,28 @@
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
+
+# AI Weather Forecast App
+
+This project uses OpenWeather and OpenAI APIs. To run the app, you need to add your own API keys.
+
+## Setup
+
+1. Create a `.env` file in the root directory of the project.
+2. Add your API keys in the `.env` file like this:
+
+3. Make sure `.env` is added to `.gitignore` so your keys won’t be committed.
+4. Run the app normally (e.g., `npm start` or `expo start`).
+
+---
+
+If you don't have API keys, register at:  
+- [OpenWeather](https://openweathermap.org/api)  
+- [OpenAI](https://platform.openai.com/account/api-keys)
+
+---
+
+
 ## Get started
 
 1. Install dependencies
